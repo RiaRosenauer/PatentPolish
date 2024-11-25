@@ -1,0 +1,12 @@
+services:
+  patentpolish:
+    env_file:
+      - .env
+    environment:
+      - ENV_NAME=prod
+    image: 'patentpolish:latest'
+    build:
+      context: .
+    tty: true
+    ports:
+      - "8501:8501"

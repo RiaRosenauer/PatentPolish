@@ -1,0 +1,8 @@
+logging:
+  enabled: true
+  format: "%(asctime)s.%(msecs)03d [%(levelname)s]: %(message)s"
+  datefmt: "%H:%M:%S"
+  level: "INFO"
+
+env:
+  name: "prod"
